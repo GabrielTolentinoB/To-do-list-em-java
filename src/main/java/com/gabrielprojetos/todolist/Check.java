@@ -24,18 +24,21 @@ public class Check {
             
                 case 4:
                     System.out.println("Marcar tarefa como comcluida selecionado");
-                 break;
-            
+                    break;
+
                 case 5:
+                    System.out.println("Remover tarefa selecionado");
+                    break;
+            
+                case 6:
                     System.out.println("saindo...");
                     break;                
     
                 default:
                     System.out.println("Número não válido");
                     break;
-                }
-            } while (choice < 1 || choice > 5);
-   
-            return choice;
+            }
+        } while (choice < 1 || choice > 6);
+         return choice;
     }
 }

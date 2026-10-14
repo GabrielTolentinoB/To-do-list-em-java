@@ -29,8 +29,27 @@ public class Main {
                     case 2:{
                         tarefa.mostrarTarefas(scanner);
                         break;
-                    }                   
+                    }
+                    
+                    case 3:{
+                        tarefa.renomearTarefa(scanner);
+                        break;
+                    }                    
 
+                    case 4:{
+                        tarefa.marcarComoConcluido(scanner);
+                        break;
+                    }
+
+                    case 5:{
+                        tarefa.removerTarefa(scanner);
+                        break;
+                    }
+
+                    case 6:{
+                        System.out.println(""); //Saindo
+                        break;
+                    }
 
                     default:{
                         
@@ -40,7 +59,7 @@ public class Main {
 
                 }
 
-            } while (choice != 5);
+            } while (choice != 6);
         }
     }    
 }

@@ -9,8 +9,8 @@ public class Menu {
         System.out.println("2 - ver todas tarefas");
         System.out.println("3 - Renomear tarefa");
         System.out.println("4 - Marcar tarefa como concluida");
-        System.out.println("6 - Remover tarefa");
-        System.out.println("5 - Sair");
+        System.out.println("5 - Remover tarefa");
+        System.out.println("6 - Sair");
         System.out.println("");
     } 
     
